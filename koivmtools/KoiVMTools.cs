@@ -1,7 +1,6 @@
 ﻿using dnlib.DotNet;
 using dnlib.DotNet.Writer;
 using koivmtools;
-using StringDecryptor;
 using System;
 using System.Collections.Generic;
 using System.IO;

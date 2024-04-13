@@ -48,15 +48,12 @@
     <Compile Include="KoiVMToolOptions.cs" />
     <Compile Include="KoiVMTools.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StringDecryptImpl.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\ToolLoader\Tool.Interface\Tool.Interface.csproj">
       <Project>{902C3AB7-8622-43E6-8D79-BEF51BD80A4E}</Project>
       <Name>Tool.Interface</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\StringDecryptor\StringDecryptor.csproj">
-      <Project>{264aee84-7ff9-4204-8efe-e214429aca73}</Project>
-      <Name>StringDecryptor</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

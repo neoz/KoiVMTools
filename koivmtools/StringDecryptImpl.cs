@@ -11,7 +11,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Tool.Logging;
 
-namespace StringDecryptor
+namespace KoiVM.Tools
 {
     public static class StringDecryptImpl
     {

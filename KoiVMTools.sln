@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34701.34
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringDecryptor", "StringDecryptor\StringDecryptor.csproj", "{264AEE84-7FF9-4204-8EFE-E214429ACA73}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tool.Interface", "..\ToolLoader\Tool.Interface\Tool.Interface.csproj", "{902C3AB7-8622-43E6-8D79-BEF51BD80A4E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "koivmtools", "koivmtools\koivmtools.csproj", "{45A54C6D-28DA-4432-A57B-8C8A46BF5A58}"
@@ -15,10 +13,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{264AEE84-7FF9-4204-8EFE-E214429ACA73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{264AEE84-7FF9-4204-8EFE-E214429ACA73}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{264AEE84-7FF9-4204-8EFE-E214429ACA73}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{264AEE84-7FF9-4204-8EFE-E214429ACA73}.Release|Any CPU.Build.0 = Release|Any CPU
 		{902C3AB7-8622-43E6-8D79-BEF51BD80A4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{902C3AB7-8622-43E6-8D79-BEF51BD80A4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{902C3AB7-8622-43E6-8D79-BEF51BD80A4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
