@@ -105,7 +105,7 @@ namespace StringDecryptor
                             {
                                 str = (string)instructions[i].Operand;
                                 var callmethod = instructions[i + 2].Operand as MethodDef;
-                                if (callmethod!=null && callmethod.MDToken.Raw == 0x060003B3)
+                                if (callmethod!=null && callmethod.MDToken.Raw == decryptMethod.MetadataToken)
                                 {
                                     if (!printMethod)
                                     {
